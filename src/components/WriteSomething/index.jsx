@@ -1,4 +1,4 @@
-const WriteSomething = ({something}) => {
+const Index = ({something}) => {
 
     return (
         <div className={"example"}>
@@ -11,4 +11,4 @@ const WriteSomething = ({something}) => {
     )
 }
 
-export default WriteSomething
+export default Index

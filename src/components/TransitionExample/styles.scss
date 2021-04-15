@@ -1,0 +1,21 @@
+.TransitionExample {
+    .remove-btn {
+        margin-right: 0.5rem;
+    }
+
+    .item-enter-active {
+        opacity: 1;
+        transition: opacity 500ms ease-in;
+    }
+
+    .item-exit-active {
+        opacity: 0;
+        transition: opacity 500ms ease-in;
+    }
+}
+
+
+
+
+
+

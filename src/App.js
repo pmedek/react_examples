@@ -1,10 +1,10 @@
 import logo from './logo.svg';
-import './App.css';
-import HelloWorld from "./components/HelloWorld/HelloWorld";
-import WriteSomething from "./components/WriteSomething/WriteSomething";
-import InputValue from "./components/InputValue/InputValue";
-import TransitionExample from "./components/TransitionExample/TransitionExample";
-import ClassBindingExample from "./components/ClassBindingExample/ClassBindingExample";
+import './App.scss';
+import HelloWorld from "./components/HelloWorld";
+import WriteSomething from "./components/WriteSomething";
+import InputValue from "./components/InputValue";
+import TransitionExample from "./components/TransitionExample";
+import ClassBindingExample from "./components/ClassBindingExample";
 
 function App() {
     return (

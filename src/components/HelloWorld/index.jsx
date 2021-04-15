@@ -1,5 +1,5 @@
 import {useState} from "react";
-import "./HelloWorld.css";
+import "./styles.scss";
 
 const HelloWorld = () => {
     const [msg] = useState('Hello world!')

@@ -2,7 +2,7 @@ import {useState} from "react";
 import "./HelloWorld.css";
 
 const HelloWorld = () => {
-    const [msg, setMsg] = useState('Hello world!')
+    const [msg] = useState('Hello world!')
 
     return (
         <p>

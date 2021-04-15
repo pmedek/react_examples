@@ -1,7 +1,7 @@
 const WriteSomething = ({something}) => {
 
     return (
-        <div>
+        <div className={"example"}>
             {something ? (
                 <p>{something}</p>
             ) : (

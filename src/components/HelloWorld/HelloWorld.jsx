@@ -5,9 +5,11 @@ const HelloWorld = () => {
     const [msg] = useState('Hello world!')
 
     return (
-        <p>
-            {msg}
-        </p>
+        <div className={"HelloWorld example"}>
+            <p>
+                {msg}
+            </p>
+        </div>
     )
 }
 

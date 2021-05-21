@@ -9,7 +9,7 @@ const InputValue = () => {
 
     return (
         <div className={"example"}>
-            <input type="text" value={inputVal} />
+            <input type="text" value={inputVal} disabled/>
             <button onClick={handleOnClick}>+</button>
         </div>
     )

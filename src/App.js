@@ -9,17 +9,17 @@ import ClassBindingExample from "./components/ClassBindingExample";
 function App() {
     return (
         <div className="App">
+            <h1>React</h1>
             <img src={logo} className="App-logo" alt="logo"/>
-
-            <h1>Example 1 - hello world</h1>
+            <h2>Example 1 - hello world</h2>
             <HelloWorld/>
-            <h1>Example 2 - write custom text</h1>
+            <h2>Example 2 - write custom text</h2>
             <WriteSomething something="Haha!"/>
-            <h1>Example 3 - input value</h1>
+            <h2>Example 3 - input value</h2>
             <InputValue/>
-            <h1>Example 4 - transitions</h1>
+            <h2>Example 4 - transitions</h2>
             <TransitionExample/>
-            <h1>Example 5 - class binding</h1>
+            <h2>Example 5 - class binding</h2>
             <ClassBindingExample/>
         </div>
     );

@@ -8,8 +8,6 @@ import ClassBindingExample from "../../components/ClassBindingExample";
 const ExamplesPage = () => {
     return (
         <div className="ExamplesPage">
-            <h1>React</h1>
-            <img src={logo} className="App-logo" alt="logo"/>
             <h2>Example 1 - hello world</h2>
             <HelloWorld/>
             <h2>Example 2 - write custom text</h2>

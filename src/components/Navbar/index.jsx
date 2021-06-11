@@ -6,6 +6,10 @@ import './styles.scss';
 const Navbar = () => {
     return (
         <div className='Navbar'>
+            <NavLink to="/" exact activeClassName="selected">
+                Home
+            </NavLink>
+            {' | '}
             <NavLink to="/examples" activeClassName="selected">
                 Examples
             </NavLink>

@@ -3,7 +3,12 @@
         margin-right: 0.5rem;
     }
 
-    .item-enter-active {
+    .item-enter {
+        opacity: 0;
+        transition: opacity 500ms ease-in;
+    }
+
+    .item-enter-done {
         opacity: 1;
         transition: opacity 500ms ease-in;
     }

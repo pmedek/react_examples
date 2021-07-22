@@ -1,4 +1,3 @@
-import logo from "../../logo.svg";
 import HelloWorld from "../../components/HelloWorld";
 import WriteSomething from "../../components/WriteSomething";
 import InputValue from "../../components/InputValue";

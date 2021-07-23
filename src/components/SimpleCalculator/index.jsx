@@ -82,7 +82,7 @@ const SimpleCalculator = () => {
                         <CSSTransition
                             key={result}
                             timeout={500}
-                            classNames="result"
+                            classNames="fade"
                         >
                             <span className={`Calculator__result`}>{result}</span>
                         </CSSTransition>

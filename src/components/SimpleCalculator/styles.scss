@@ -47,28 +47,21 @@ $basic-blue-color: #2684ff;
     }
 
     /* animations */
-    .result {
+    .fade {
         &-enter {
             position: absolute;
-            top: 0;
-            left: calc(13% + 5px);
-            right: calc(13% + 5px);
-            opacity: 0.01;
-            transform: translateY(0%) scale(0.01);
+            opacity: 0;
         }
         &-enter-done {
             opacity: 1;
-            transform: translateY(0%) scale(1);
-            transition: all 1000ms ease-in-out;
+            transition: opacity 500ms;
         }
         &-exit {
             opacity: 1;
-            transform: scale(1.01);
         }
         &-exit-active {
             opacity: 0;
-            transform: scale(4);
-            transition: all 1000ms ease-in-out;
+            transition: opacity 500ms;
         }
     }
 }

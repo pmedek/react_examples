@@ -2,16 +2,16 @@ import {useState} from "react";
 import "./styles.scss";
 
 const HelloWorld = () => {
-    const [isRed, setIsRed] = useState(true)
+    const [red, setRed] = useState(true)
 
     const handleOnClick = () => {
-        setIsRed(prevState => !prevState)
+        setRed(prevState => !prevState)
     }
 
     return (
         <div className={"ClassBindingExample example"}>
             <button onClick={handleOnClick}>Toggle</button>
-            <p className={isRed ? `red` : `blue`}>hello</p>
+            <p className={red && `red`}>hello</p>
         </div>
     )
 }

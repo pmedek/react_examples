@@ -2,20 +2,22 @@
     .remove-btn {
         margin-right: 0.5rem;
     }
-
-    .item-enter {
-        opacity: 0;
-        transition: opacity 500ms ease-in;
-    }
-
-    .item-enter-done {
-        opacity: 1;
-        transition: opacity 500ms ease-in;
-    }
-
-    .item-exit-active {
-        opacity: 0;
-        transition: opacity 500ms ease-in;
+    /* animations */
+    .fade {
+        &-enter {
+            opacity: 0;
+        }
+        &-enter-active {
+            opacity: 1;
+            transition: opacity 500ms;
+        }
+        &-exit {
+            opacity: 1;
+        }
+        &-exit-active {
+            opacity: 0;
+            transition: opacity 500ms;
+        }
     }
 }
 

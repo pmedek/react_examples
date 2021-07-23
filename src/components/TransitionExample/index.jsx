@@ -15,7 +15,7 @@ const WriteSomething = () => {
             <CSSTransition
                 in={isVisible}
                 timeout={500}
-                classNames="item"
+                classNames="fade"
                 unmountOnExit
                 appear
             >
